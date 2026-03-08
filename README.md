@@ -6,9 +6,13 @@
 
 # Getting Started
 
-We present the Planning Copilot, a chatbot that brings together multiple planning tools and lets users run them using natural language instructions. It’s built on the Model Context Protocol (MCP), which makes it easy for language models to interact with external tools and systems.
+We present the Planning Copilot, a chatbot that brings together multiple planning tools and lets users run them using natural language instructions. It's built on the Model Context Protocol (MCP), which makes it easy for language models to interact with external tools and systems.
 
 The Planning Copilot is modular, so each part can be swapped out, upgraded, or extended without affecting the rest of the system. In the current implementation, Solve uses FastDownward for classical planning and Metric-FF for numeric planning, Verify uses VAL to validate plans, and Execute relies on PDDL_Plus_Parser to simulate and track plan execution.
+
+<a href="https://glama.ai/mcp/servers/SPL-BGU/planning-copilot">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/SPL-BGU/planning-copilot/badge" alt="PlanningCopilot MCP server" />
+</a>
 
 ## Dependencies
 1. Make sure that Python 3.10 is installed and active (via [virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment) or conda environment).
