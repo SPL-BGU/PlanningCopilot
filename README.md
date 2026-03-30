@@ -46,3 +46,8 @@ If you find our work interesting or the repo useful, please consider citing [thi
   year={2025}
 }
 ```
+
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/spl-bgu-planningcopilot).
+
